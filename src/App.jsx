@@ -8,8 +8,6 @@ import Detalle from './Pages/Detalle'
 import Home from './Pages/Home'
 
 
-
-
 function App() {
  
   
@@ -21,7 +19,7 @@ function App() {
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          <Route path='/element/:elemento' element={<Detalle/>}/>
+          <Route path='/recipe/:id' element={<Detalle/>}/>
       </Routes>
    </>
   )
